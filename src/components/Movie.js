@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 function Movie({id, mediumCoverImage, title, summary, genres}) {
     return <div>
         <h1>WOW!!!!!</h1>
-        <img src={mediumCoverImage}></img>
         <h2><Link to={`/movie/${id}`}>{title}</Link></h2>
         <p>{summary}</p>
         <ul>
